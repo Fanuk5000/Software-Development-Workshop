@@ -12,7 +12,7 @@ import java.util.List;
 static void printMatrix(int[][] mat) {
     for (int[] row : mat) {
         for (int element : row) {
-           IO.print(element + " ");
+            IO.print(element + " ");
         }
         IO.println();
     }
