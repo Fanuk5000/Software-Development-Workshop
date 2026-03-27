@@ -37,7 +37,8 @@ void main() {
     IO.println(sum_digits2 - sum_digits1);
     IO.println("------------------------ Task 2 ------------------------");
     // Змініть текст наступним чином: вставте в кожне речення після заданого k-го символу заданий рядок
-    String text = "default";
+    IO.println("Enter some text(default to use lorem ipsum...)");
+    String text = scanner.nextLine();
     if (Objects.equals(text, "default") || text.length() < 20) {
         text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
     }
@@ -66,7 +67,7 @@ void main() {
 
     for (String sentence : sentences) {
         if (sentence.length() >= k) {
-            result.append(sentence.substring(0, k))
+            result.append(sentence.substring(0, k)) // diapasone from of text from 0 to k
                     .append(insertString)
                     .append(sentence.substring(k));
         } else {
