@@ -1,0 +1,10 @@
+here will be some words to be counted by algorithm
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Quisque quis aliquet ligula. Phasellus ut convallis ipsum.
+Integer porta, tellus vel scelerisque vestibulum, tellus eros aliquam augue, ut condimentum massa turpis id leo.
+Fusce dictum tempor erat sit amet pellentesque.
+Cras ante ex, dignissim a leo non, porta blandit lacus.
+Phasellus euismod dui a arcu interdum egestas. Curabitur sed massa arcu. Aenean ac quam quam. 
+Curabitur ut mi sit amet nulla ultricies malesuada. Integer convallis eros justo, nec commodo lectus mattis eu. 
+Sed vel augue id dolor aliquam pellentesque.
