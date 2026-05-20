@@ -6,8 +6,8 @@ import { readFileSync, writeFileSync } from "fs";
 // його зустрічі у файлі
 
 const prompt = promptSync({ sigint: true });
-const file_path: string = prompt("Enter the file path: ");
-const file_name: string = prompt("Enter the file name: ");
+const file_path: string = prompt("Enter the file path to read: ");
+const file_name: string = prompt("Enter the file name to write: ");
 
 console.log(`The file path you entered is: ${file_path}`);
 console.log(`The file name you entered is: ${file_name}`);
