@@ -35,16 +35,16 @@ class Computer {
 
         for (const prop of this.properties) {
             if (
-                prop.type.toLocaleLowerCase().includes(keyword.toLocaleLowerCase()) ||
-                prop.value.toLocaleLowerCase().includes(keyword.toLocaleLowerCase())
+                prop.type.toLocaleLowerCase().indexOf(keyword.toLocaleLowerCase()) !== -1 ||
+                prop.value.toLocaleLowerCase().indexOf(keyword.toLocaleLowerCase()) !== -1
             ) {
                 console.log(`- Value : ${prop.type} — ${prop.value}`);
                 found = true;
+                return;
             }
-
-            if (!found) {
-                console.log("Property has not been found!");
-            }
+        }
+        if (!found) {
+            console.log("Property has not been found!");
         }
     }
 }
