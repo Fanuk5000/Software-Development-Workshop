@@ -20,7 +20,7 @@ const prompt = promptSync({ sigint: true });
 
 let tries = 0;
 while (tries < 5) {
-    console.log(`Attempt ${tries + 1} of 5:`);
+    console.log(`Cords ${tries + 1} of 5:`);
 
     const xInput = prompt("Enter x(int): ");
     if (!xInput) continue;
